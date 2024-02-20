@@ -11,8 +11,8 @@
 # Bonus: Try to represent the same store items using a class instance.
 
 class Store_item
-  attr_reader :price, :type, :age_use, :name, :count
-  attr_writer :price, :type, :age_use, :name, :count
+  attr_reader :price, :name, :count
+  attr_writer :price, :count
 
   def initialize(price, type, age_use, name, count)
     @price = price
