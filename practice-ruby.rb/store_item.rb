@@ -43,8 +43,10 @@ end
 
 deku_nut = Store_item.new(15, "offense", "both", "Deku Nuts", 5)
 arrows = Store_item.new(20, "offense", "adult", "Arrows", 10)
-deku_shield = Store_item.new(40, "defense", "child", "Deku Shield", 1)
+deku_shield = Store_item.new(30, "defense", "child", "Deku Shield", 1)
 
 deku_nut.get_info
 arrows.get_info
+deku_shield.get_info
+deku_shield.price = 40
 deku_shield.get_info
